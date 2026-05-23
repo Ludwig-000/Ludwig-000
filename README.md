@@ -1,4 +1,4 @@
-## This is my huble profile.
+## This is my humble profile.
 behold!
 my greatest treasure!!!
 
