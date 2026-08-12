@@ -1,6 +1,10 @@
 ## This is my humble profile.
-behold!
-my greatest treasure!!!
+
+my socials!
+- https://pypi.org/user/Ludwig/
+
+
+# behold! my greatest treasure!!!
 
 
 https://github.com/not-fl3/macroquad/pull/1038
