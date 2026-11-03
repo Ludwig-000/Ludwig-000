@@ -1,0 +1,38 @@
+name: Git Jet
+on:
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: git-jet-output
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Generate Git Jet
+        id: jet
+        # Pinned to an exact commit (master as of 2026-11-03). Review the diff before bumping.
+        uses: PingPongPlus/git-jet@8e4643e55fbc05da7a60524b240ee77470061f2b
+        with:
+          username: ${{ github.repository_owner }}
+          days: '365'
+          carrier: lincoln # Choose lincoln (default) or classic.
+          water: ocean # Choose ocean (default) or original for the old water.
+          jets: '1' # Choose 1, 2 or 3; more jets shorten busy calendars.
+      - name: Publish README images
+        env:
+          JET_PUBLISH_SCRIPT: ${{ steps.jet.outputs.publish-script }}
+          JET_ASSETS: ${{ github.workspace }}/git-jet-output
+          JET_REPOSITORY: ${{ github.repository }}
+          JET_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python "$JET_PUBLISH_SCRIPT" --assets-dir "$JET_ASSETS" \
+            --repository "$JET_REPOSITORY" --default-branch "$JET_DEFAULT_BRANCH"
