@@ -1,16 +1,21 @@
 ## This is my humble profile.
 
 my socials!
-- https://pypi.org/user/Ludwig/
+
+<a href="https://pypi.org/user/Ludwig/">
+  <img src="https://img.shields.io/badge/PyPI-Ludwig-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI: Ludwig">
+</a>
 
 
 # behold! my greatest treasure!!!
 
+<p>
+<a href="https://github.com/not-fl3/macroquad/pull/1038">
+  <img width="500" src="macroquad-pr.svg" alt="macroquad pull request #1038">
+</a>
+</p>
 
-https://github.com/not-fl3/macroquad/pull/1038
-
-
-
+<p>
 <a href="https://github.com/PingPongPlus/git-jet">
   <picture>
     <source media="(prefers-reduced-motion: no-preference)"
@@ -20,6 +25,7 @@ https://github.com/not-fl3/macroquad/pull/1038
       alt="My commit history cleared by a pixel jet">
   </picture>
 </a>
+</p>
 <!--
 **Ludwig-000/Ludwig-000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
