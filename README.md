@@ -9,6 +9,17 @@ my socials!
 
 https://github.com/not-fl3/macroquad/pull/1038
 
+
+
+<a href="https://github.com/PingPongPlus/git-jet">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)"
+      srcset="https://raw.githubusercontent.com/Ludwig-000/Ludwig-000/output/git-jet.gif">
+    <img width="960"
+      src="https://raw.githubusercontent.com/Ludwig-000/Ludwig-000/output/git-jet.png"
+      alt="My commit history cleared by a pixel jet">
+  </picture>
+</a>
 <!--
 **Ludwig-000/Ludwig-000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
