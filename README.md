@@ -15,7 +15,7 @@ https://github.com/not-fl3/macroquad/pull/1038
   <picture>
     <source media="(prefers-reduced-motion: no-preference)"
       srcset="https://raw.githubusercontent.com/Ludwig-000/Ludwig-000/output/git-jet.gif">
-    <img width="960"
+    <img width="500"
       src="https://raw.githubusercontent.com/Ludwig-000/Ludwig-000/output/git-jet.png"
       alt="My commit history cleared by a pixel jet">
   </picture>
