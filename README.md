@@ -6,6 +6,10 @@ my socials!
   <img src="https://img.shields.io/badge/PyPI-Ludwig-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI: Ludwig">
 </a>
 
+<a href="https://def-y.itch.io/">
+  <img src="https://img.shields.io/badge/itch.io-def--y-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io: def-y">
+</a>
+
 
 # behold! my greatest treasure!!!
 
