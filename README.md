@@ -10,6 +10,9 @@ my socials!
   <img src="https://img.shields.io/badge/itch.io-def--y-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io: def-y">
 </a>
 
+<a href="https://codeberg.org/Ludwig-000">
+  <img src="https://img.shields.io/badge/Codeberg-Ludwig--000-2185D0?style=for-the-badge&logo=codeberg&logoColor=white" alt="Codeberg: Ludwig-000">
+</a>
 
 # behold! my greatest treasure!!!
 
