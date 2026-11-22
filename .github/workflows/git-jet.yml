@@ -13,13 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: Generate Git Jet
         id: jet
-        # Pinned to an exact commit (master as of 2026-11-03). Review the diff before bumping.
-        uses: PingPongPlus/git-jet@8e4643e55fbc05da7a60524b240ee77470061f2b
+        # Vendored copy of PingPongPlus/git-jet@8e4643e (the original repo is gone).
+        # See .github/actions/git-jet/PROVENANCE.md.
+        uses: ./.github/actions/git-jet
         with:
           username: ${{ github.repository_owner }}
           days: '365'
